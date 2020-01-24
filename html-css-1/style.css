@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.nav-bar {
+  width: 100%;
+  height: 7vh;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  padding-left: 20px;
+  padding-right: 60px;
+}
+
+.company-name {
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+/* .nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+} */
+
+.menu {
+  width: 20%;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  list-style: none;
+}
+
+.the-more {
+  background-color: black;
+  color: khaki;
+  font-size: 7rem;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.green-boxes {
+  height: 45vh;
+  width: 90%;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+
+.green {
+  width: 25%;
+  height: 75%;
+  background-color: paleturquoise;
+  border-radius: 30px;
+}
+
+.yellow-rect {
+  height: 45vh;
+  width: 90%;
+  margin-left: 100px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+
+.yellow {
+  width: 45%;
+  height: 75%;
+  background-color: sandybrown;
+}
+
+.word-pics {
+  height: 45vh;
+  width: 90%;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.words {
+  width: 33%;
+  height: 75%;
+  font-size: 1.5rem;
+}
+
+.pic {
+  width: 33%;
+  height: 75%;
+  background-image: url(http://www.dumpaday.com/wp-content/uploads/2018/06/random-pictures-10.jpg);
+}
+
+.footer {
+  width: 100%;
+  height: 15vh;
+  background-color: darkslategray;
+}
